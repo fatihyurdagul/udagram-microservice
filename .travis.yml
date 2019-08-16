@@ -17,4 +17,4 @@ before_install:
   - sudo mv ./kubectl /usr/local/bin/kubectl
 
 install:
-  - docker-compose -f udacity-c3-deployment/custom-docker/docker-compose-build.yaml build --paralel
+  - docker-compose -f udacity-c3-deployment/custom-docker/docker-compose-build.yaml build --parallel
